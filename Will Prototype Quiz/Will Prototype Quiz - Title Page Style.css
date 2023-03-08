@@ -1,0 +1,43 @@
+
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    font-size:40px;
+}
+
+.buttontitle {
+    /*Centering button*/
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    /*Button color*/
+    background-color: green;
+    /*Text color*/
+    color: white;
+    /*Button space around the text*/ 
+    padding: 15px 32px;
+    /*Text in center of button*/
+    text-align: center;
+    /*Round buttons corners*/
+    border-radius: 8px;
+    /*Borders*/
+    border: 2px solid black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    /*How fast the color changes when hovered over*/
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    /*What color the button changes to*/
+    background-color:Blue;
+    /*What color the button's text changes to*/
+    color:yellow;
+}

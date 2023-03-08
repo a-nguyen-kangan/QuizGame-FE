@@ -1,0 +1,50 @@
+/*Result style for Individual question results
+
+/*Background color*/
+body {
+    background-color: lightblue;
+}
+
+/*Style for the questions result*/
+h2 {
+    text-align: center;
+    font-size:30px;
+}
+
+/*Centering button*/
+.button1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.button {
+    /*Button background color*/
+    background-color: green;
+    /*Button text color*/
+    color: white;
+    /*Button space around text*/
+    padding: 15px 32px;
+    /*Centering text inside button*/
+    text-align: center;
+    /*Button rounding*/
+    border-radius: 8px;
+    /*Button border*/
+    border: 2px solid black;
+    text-decoration:none;
+    display: inline-block;
+    /*Text size*/
+    font-size: 20px;
+    /*Width of the button*/
+    width: 25%;
+    /*How fast the color changes*/
+    transition-duration: 0.4s;
+}
+
+
+.button:hover{
+    /*Button color changes to*/
+    background-color:Blue;
+    /*Button text color changes to*/
+    color:yellow;
+}

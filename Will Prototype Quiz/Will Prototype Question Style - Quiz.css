@@ -1,0 +1,60 @@
+
+/*Background color*/
+body {
+    background-color: lightblue;
+}
+
+/*Question number style*/
+h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+/*Question style*/
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.buttons1{
+    /*Puts buttons in the center of screen horizontally*/
+    display: flex;
+    justify-content: center;
+}
+
+
+.buttons2{
+    /*Puts buttons in the center of screen horizontally*/
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    /*Button color*/
+    background-color: green;
+    /*Text color*/
+    color: white;
+    /*Button space around the text*/
+    padding: 15px 32px;
+    /*Alignment of text inside button*/
+    text-align: center;
+    /*Rounds corners*/
+    border-radius: 8px;
+    /*Border*/
+    border: 2px solid black;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 20px;
+    /*Making buttons all the same size*/
+    width: 25%;
+    /*How fast buttons change colors when hovered over*/
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    /*Color button changes to when hovered over*/
+    background-color:Blue;
+    /*Color button text changes to when button hovered over*/
+    color:yellow;
+}
