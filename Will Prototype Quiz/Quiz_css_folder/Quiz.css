@@ -1,6 +1,5 @@
 /*title page style*/
 
-
 body {
     background-color: lightblue;
 }
@@ -16,33 +15,6 @@ h1 {
     justify-content: center;
 }
 
-.button {
-    /*Button color*/
-    background-color: green;
-    /*Text color*/
-    color: white;
-    /*Button space around the text*/ 
-    padding: 15px 32px;
-    /*Text in center of button*/
-    text-align: center;
-    /*Round buttons corners*/
-    border-radius: 8px;
-    /*Borders*/
-    border: 2px solid black;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    /*How fast the color changes when hovered over*/
-    transition-duration: 0.4s;
-}
-
-.button:hover{
-    /*What color the button changes to*/
-    background-color:Blue;
-    /*What color the button's text changes to*/
-    color:yellow;
-}
-
 
 
 
@@ -52,14 +24,8 @@ h1 {
 
 /*question style*/
 
-
-/*Background color*/
-body {
-    background-color: lightblue;
-}
-
 /*Question number style*/
-h2 {
+.question_num {
     text-align: center;
     font-size: 28px;
 }
@@ -70,74 +36,13 @@ p {
     font-size: 18px;
 }
 
-.buttons1{
+.buttons1, .buttons2, .button1{
     /*Puts buttons in the center of screen horizontally*/
     display: flex;
     justify-content: center;
 }
 
-.buttons2{
-    /*Puts buttons in the center of screen horizontally*/
-    display: flex;
-    justify-content: center;
-}
-
-.button {
-    /*Button color*/
-    background-color: green;
-    /*Text color*/
-    color: white;
-    /*Button space around the text*/
-    padding: 15px 32px;
-    /*Alignment of text inside button*/
-    text-align: center;
-    /*Rounds corners*/
-    border-radius: 8px;
-    /*Border*/
-    border: 2px solid black;
-    text-decoration:none;
-    display: inline-block;
-    font-size: 20px;
-    /*Making buttons all the same size*/
-    width: 25%;
-    /*How fast buttons change colors when hovered over*/
-    transition-duration: 0.4s;
-}
-
-.button:hover{
-    /*Color button changes to when hovered over*/
-    background-color:Blue;
-    /*Color button text changes to when button hovered over*/
-    color:yellow;
-}
-
-
-
-
-
-
-
-
-/*result style for the individual questions, not the results page*/
-
-
-/*Background color*/
-body {
-    background-color: lightblue;
-}
-
-/*Style for the questions result*/
-h2 {
-    text-align: center;
-    font-size:30px;
-}
-
-/*Centering button*/
-.button1 {
-    display: flex;
-    justify-content: center;
-}
-
+/* this is the same for all buttons across the website at this moment */
 .button {
     /*Button background color*/
     background-color: green;
@@ -158,12 +63,41 @@ h2 {
     /*Width of the button*/
     width: 25%;
     /*How fast the color changes*/
+    margin: 20px;
+    height: 85px;
+  }
+  
+  /*changing the button when hovering over it*/
+.button:hover{
+    /*How fast the color changes when hovered over*/
     transition-duration: 0.4s;
+    /*What color the button changes to when mouse over*/
+    background-color:Blue;
+    /*What color the button's text changes to*/
+    color:yellow;
+    cursor: pointer;
 }
 
-.button:hover{
-    /*Button color changes to*/
-    background-color:Blue;
-    /*Button text color changes to*/
-    color:yellow;
+/*changing the button background colour and text color when clicked on*/
+.button:active{
+    transition-duration: 0s;
+    background-color: rgb(12, 207, 12);
+    /*Text color*/
+    color: rgb(121, 121, 121);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+  
+/*result style for the individual questions, not the results page*/
+
+/*Style for the questions result*/
+.result_title {
+    text-align: center;
+    font-size:30px;
 }
